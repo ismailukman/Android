@@ -1,0 +1,480 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="10dp"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/why"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.project.lukman.ntnu2015graduation.Front1"
+    android:fillViewport="false"
+    android:id="@+id/scrollview">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:layout_width="500dp"
+            android:layout_height="160dp"
+            android:src="@drawable/convocationlogolari"
+            android:id="@+id/imageView"
+            android:layout_column="1" />
+
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="80dp"
+            android:id="@+id/tableLayout">
+
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="80dp">
+
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Alhamdulillahi rabbil alamin"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:textColor="#FF000000"
+                android:typeface="serif"
+                android:layout_marginTop="60dp"
+                android:id="@+id/textView"
+                android:layout_column="1" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="All praises be to Allah, the Lord of the worlds"
+                    android:textColor="#FF000000"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="15dp"
+                    android:typeface="serif"
+                    android:id="@+id/textView1"
+                    android:layout_column="1" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Contributors"
+                    android:layout_marginTop="50dp"
+                    android:textColor="#FF000000"
+                    android:layout_marginLeft="15dp"
+
+                    android:textSize="25dp"
+                    android:typeface="serif"
+                    android:id="@+id/textView2"
+                    android:layout_column="1" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Mr. Yavuz Alemdar\nGraphic Designer"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#FF000000"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="15dp"
+                    android:typeface="serif"
+                    android:id="@+id/textView3"
+                    android:layout_column="1" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Mr. Umar Babani Mashio\npublic Relations Officer"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#FF000000"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="15dp"
+                    android:typeface="serif"
+                    android:id="@+id/textView4"
+                    android:layout_column="1" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Abdulsamad Mustapha\nPol. Sci. and Int'l Relations(300lvl)"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#FF000000"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="15dp"
+                    android:typeface="serif"
+                    android:id="@+id/textView5"
+                    android:layout_column="1" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Bazam Shehu Musa\nB.Sc. Computer Science"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#FF000000"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="15dp"
+                    android:typeface="serif"
+                    android:id="@+id/textView6"
+                    android:layout_column="1" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="All Members of Computer Science \nStudents(Class of 2015)"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#FF000000"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="15dp"
+                    android:typeface="serif"
+                    android:id="@+id/textView17"
+                    android:layout_column="1" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Special Thanks"
+                    android:layout_marginTop="50dp"
+                    android:textColor="#FF000000"
+                    android:layout_marginLeft="15dp"
+                    android:textSize="25dp"
+                    android:typeface="serif"
+                    android:id="@+id/textView7"
+                    android:layout_column="1" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Mr. and Mrs. Ismaila "
+                    android:layout_marginTop="10dp"
+                    android:textColor="#FF000000"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="15dp"
+                    android:typeface="serif"
+                    android:id="@+id/textView8"
+                    android:layout_column="1" />
+            </TableRow>
+            <TableRow
+            android:layout_width="fill_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Assoc. Prof. Dr. Steve A. Adeshina"
+                android:layout_marginTop="10dp"
+                android:textColor="#FF000000"
+                android:layout_marginLeft="5dp"
+                android:textSize="15dp"
+                android:typeface="serif"
+                android:id="@+id/textView9"
+                android:layout_column="1" />
+        </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Assoc. Prof. Dr. Musa Muhammad"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#FF000000"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="15dp"
+                    android:typeface="serif"
+                    android:id="@+id/textView10"
+                    android:layout_column="1" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Dr. Abdulahi Saleh"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#FF000000"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="15dp"
+                    android:typeface="serif"
+                    android:id="@+id/textView14"
+                    android:layout_column="1" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Dr. Musa A. Abiodun"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#FF000000"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="15dp"
+                    android:typeface="serif"
+                    android:id="@+id/textView15"
+                    android:layout_column="1" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Mr. Arreytambe Tabot"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#FF000000"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="15dp"
+                    android:typeface="serif"
+                    android:id="@+id/textView11"
+                    android:layout_column="1" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Mr. Yoro"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#FF000000"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="15dp"
+                    android:typeface="serif"
+                    android:id="@+id/textView12"
+                    android:layout_column="1" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Mr. Segun Aroyehun"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#FF000000"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="15dp"
+                    android:typeface="serif"
+                    android:id="@+id/textView13"
+                    android:layout_column="1" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Mr. Ignace"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#FF000000"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="15dp"
+                    android:typeface="serif"
+                    android:id="@+id/textView16"
+                    android:layout_column="1" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Arch. Yusuf"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#FF000000"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="15dp"
+                    android:typeface="serif"
+                    android:id="@+id/textView21"
+                    android:layout_column="1" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Mrs. Hajara Mj"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#FF000000"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="15dp"
+                    android:typeface="serif"
+                    android:id="@+id/textView19"
+                    android:layout_column="1" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Mr. Musa"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#FF000000"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="15dp"
+                    android:typeface="serif"
+                    android:id="@+id/textView20"
+                    android:layout_column="1" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Asim A. Muhammad\n(May Allah grant him Jannah(Ameen))"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#FF000000"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="15dp"
+                    android:typeface="serif"
+                    android:id="@+id/textView23"
+                    android:layout_column="1" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="My siblings, friends and family..."
+                    android:layout_marginTop="10dp"
+                    android:textColor="#FF000000"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="15dp"
+                    android:typeface="serif"
+                    android:id="@+id/textView22"
+                    android:layout_column="1" />
+            </TableRow>
+
+
+
+
+        </TableLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Back"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/btn3"
+            android:id="@+id/button"
+            android:layout_below="@+id/tableLayout"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,467 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="10dp"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/why"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.project.lukman.ntnu2015graduation.Front1">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:layout_width="500dp"
+            android:layout_height="120dp"
+            android:src="@drawable/bus"
+            android:id="@+id/imageView"
+            android:layout_column="1" />
+
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/horizontalScrollView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="80dp"
+            android:layout_alignParentStart="true"
+            android:id="@+id/tableLayout">
+
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="80dp">
+
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="180dp"
+                    android:id="@+id/imageView1"
+                    android:src="@drawable/hodbusadmin"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="HOD, Business \nAdministration\nDr. Abdulrahman Isik"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="#FF000000"
+                    android:typeface="serif"
+                    android:layout_marginTop="60dp"
+                    android:id="@+id/textView"
+                    android:layout_column="3" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView2"
+                    android:src="@drawable/zainabs"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Zainab S. Abdullahi\n08060164932"
+                    android:layout_marginTop="50dp"
+                    android:textColor="#FF000000"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="15dp"
+                    android:typeface="serif"
+                    android:id="@+id/textView2"
+                    android:layout_column="3" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView3"
+                    android:src="@drawable/ndakousmandanasabe"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Ndako Usman Dan-Asabe"
+                    android:layout_marginTop="50dp"
+                    android:textSize="15dp"
+                    android:textColor="#FF000000"
+                    android:typeface="serif"
+                    android:id="@+id/textView3"
+                    android:layout_column="3" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView4"
+                    android:src="@drawable/modibbousmanaliyu"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Modibbo Usman Aliyu"
+                    android:layout_marginTop="50dp"
+                    android:textSize="15dp"
+                    android:textColor="#FF000000"
+                    android:typeface="serif"
+                    android:id="@+id/textView4"
+                    android:layout_column="3" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView5"
+                    android:src="@drawable/aminuzainabibrahim"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Aminu Zainab Ibrahim\nzanab_aminu74@\nyahoo.com\n09050865718"
+                    android:layout_marginTop="50dp"
+                    android:textSize="15dp"
+                    android:textColor="#FF000000"
+                    android:typeface="serif"
+                    android:id="@+id/textView5"
+                    android:layout_column="3" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView6"
+
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Obodumu Obodumu"
+                    android:textColor="#FF000000"
+                    android:layout_marginTop="20dp"
+                    android:textSize="15dp"
+                    android:typeface="serif"
+                    android:id="@+id/textView6"
+                    android:layout_column="3" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView7"
+                    android:src="@drawable/tukursadiqhamman"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Tukur Sadiq Hamman\n07058054094"
+                    android:layout_marginTop="50dp"
+                    android:textColor="#FF000000"
+                    android:textSize="15dp"
+                    android:typeface="serif"
+                    android:id="@+id/textView7"
+                    android:layout_column="3" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView8"
+                    android:src="@drawable/adamuaishasaleh"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Adamu Aisha Saleh"
+                    android:layout_marginTop="50dp"
+                    android:textSize="15dp"
+                    android:typeface="serif"
+                    android:textColor="#FF000000"
+                    android:id="@+id/textView8"
+                    android:layout_column="3" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView9"
+                    android:src="@drawable/yarimasadiq"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Yarima Sadiq"
+                    android:layout_marginTop="50dp"
+                    android:textSize="15dp"
+                    android:textColor="#FF000000"
+                    android:typeface="serif"
+                    android:id="@+id/textView9"
+                    android:layout_column="3" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView10"
+                    android:src="@drawable/muhammadzaraaji"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Muhammad Zara Aji\nzara.muhammadaji@\nyahoo.com\n08031321459"
+                    android:layout_marginTop="50dp"
+                    android:textSize="15dp"
+                    android:typeface="serif"
+                    android:textColor="#FF000000"
+                    android:id="@+id/textView10"
+                    android:layout_column="3" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView11"
+                    android:src="@drawable/ahmedhadizazubairu"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Ahmed Hadiza Zubairu\nhadizaahmed76\n@yahoo.com\n07033360294"
+                    android:layout_marginTop="50dp"
+                    android:textSize="15dp"
+                    android:textColor="#FF000000"
+                    android:typeface="serif"
+                    android:id="@+id/textView11"
+                    android:layout_column="3" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView12"
+                    android:src="@drawable/fannagoni"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Fanna Goni"
+                    android:layout_marginTop="50dp"
+                    android:textColor="#FF000000"
+                    android:textSize="15dp"
+                    android:typeface="serif"
+                    android:id="@+id/textView12"
+                    android:layout_column="3" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView13"
+                    android:src="@drawable/ahmadrabiatmakama"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Ahmad Rabiat Makama\nrabiamakam55@\ngmail.com\n08035599490"
+                    android:layout_marginTop="50dp"
+                    android:textSize="15dp"
+                    android:textColor="#FF000000"
+                    android:typeface="serif"
+                    android:id="@+id/textView13"
+                    android:layout_column="3" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView14"
+                    android:src="@drawable/abdullahimahmudbuhari"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Abdullahi Mahmud Buhari"
+                    android:layout_marginTop="50dp"
+                    android:textColor="#FF000000"
+                    android:textSize="15dp"
+                    android:typeface="serif"
+                    android:id="@+id/textView14"
+                    android:layout_column="3" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView15"
+                    android:src="@drawable/jamilatapanggarba"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Jamila Tapang Garba"
+                    android:layout_marginTop="50dp"
+                    android:textSize="15dp"
+                    android:textColor="#FF000000"
+                    android:typeface="serif"
+                    android:id="@+id/textView15"
+                    android:layout_column="3" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView16"
+                    android:src="@drawable/wakilmohammed"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Wakil Muhammed"
+                    android:layout_marginTop="50dp"
+                    android:textColor="#FF000000"
+                    android:textSize="15dp"
+                    android:typeface="serif"
+                    android:id="@+id/textView16"
+                    android:layout_column="3" />
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Back"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/btn3"
+            android:id="@+id/button"
+            android:layout_below="@+id/tableLayout"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+</ScrollView>

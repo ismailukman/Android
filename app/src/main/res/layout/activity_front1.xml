@@ -1,0 +1,310 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="10dp"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/why"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.project.lukman.ntnu2015graduation.Front1">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:layout_width="500dp"
+            android:layout_height="160dp"
+            android:src="@drawable/convocationlogolari"
+            android:id="@+id/imageView"
+            android:layout_column="1" />
+
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="80dp"
+            android:layout_alignParentStart="true"
+            android:id="@+id/tableLayout">
+
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="80dp">
+
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="180dp"
+                    android:id="@+id/imageView1"
+                    android:src="@drawable/vc"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Vice Chancellor\nProf. Dr.Huseyin Sert"
+                    android:textSize="15dp"
+                    android:textColor="#FF000000"
+                    android:typeface="serif"
+                    android:layout_marginTop="80dp"
+                    android:id="@+id/textView"
+                    android:layout_column="3" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView3"
+                    android:src="@drawable/dvc"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Deputy Vice-Chancellor\nProf. Mehmet Yilmaz"
+                    android:layout_marginTop="50dp"
+                    android:textSize="15dp"
+                    android:textColor="#FF000000"
+                    android:typeface="serif"
+                    android:id="@+id/textView3"
+                    android:layout_column="3" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView2"
+                    android:src="@drawable/dvcadmin"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Deputy Vice-Chancellor\nAssoc. Prof. Dr.Steve A. \nAdeshina"
+                    android:layout_marginTop="50dp"
+                    android:textColor="#FF000000"
+                    android:textSize="15dp"
+                    android:typeface="serif"
+                    android:id="@+id/textView2"
+                    android:layout_column="3" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView4"
+                    android:src="@drawable/reg"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Registrar\nMr. Kamil Kemanci"
+                    android:layout_marginTop="50dp"
+                    android:textSize="15dp"
+                    android:textColor="#FF000000"
+                    android:typeface="serif"
+                    android:id="@+id/textView4"
+                    android:layout_column="3" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView5"
+                    android:src="@drawable/deputyregistrar"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Deputy Registrar\nMr. Kasim Ozkulluk"
+                    android:layout_marginTop="50dp"
+                    android:textSize="15dp"
+                    android:textColor="#FF000000"
+                    android:typeface="serif"
+                    android:id="@+id/textView5"
+                    android:layout_column="3" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView6"
+                    android:src="@drawable/deanpostgrad"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Dean, Post-Graduate\nStudies\nDr. Mehmet Fatih Yasar"
+                    android:layout_marginTop="50dp"
+                    android:textSize="15dp"
+                    android:textColor="#FF000000"
+                    android:typeface="serif"
+                    android:id="@+id/textView6"
+                    android:layout_column="3" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView7"
+                    android:src="@drawable/deanstudents"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Dean,  Students Affairs\nMr. Adem Arslan"
+                    android:layout_marginTop="50dp"
+                    android:textSize="15dp"
+                    android:textColor="#FF000000"
+                    android:typeface="serif"
+                    android:id="@+id/textView7"
+                    android:layout_column="3" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView8"
+                    android:src="@drawable/deanart"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Dean, Faculty of Art, \nManagement &amp; social\nSciences\nProf. Dr. Huseyin Kalyoncu"
+                    android:layout_marginTop="50dp"
+                    android:textSize="15dp"
+                    android:textColor="#FF000000"
+                    android:typeface="serif"
+                    android:id="@+id/textView8"
+                    android:layout_column="3" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView9"
+                    android:src="@drawable/hodcsc"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Dean, Faculty of Natural &amp;\napplied Sciences\nAssoc. Prof. Dr. \nMusa Muhammed "
+                    android:layout_marginTop="50dp"
+                    android:textSize="15dp"
+                    android:typeface="serif"
+                    android:textColor="#FF000000"
+                    android:id="@+id/textView9"
+                    android:layout_column="3" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="fill_parent">
+
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView10"
+                    android:src="@drawable/deaneee"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Dean, Faculty of \nEngineering\nDr. Gokhan Koyunlu"
+                    android:layout_marginTop="50dp"
+                    android:textColor="#FF000000"
+                    android:textSize="15dp"
+                    android:typeface="serif"
+                    android:id="@+id/textView10"
+                    android:layout_column="3" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:text="Departments"
+            android:background="@drawable/btn3"
+            android:id="@+id/button"
+            android:textColor="#FF000000"
+            android:textSize="14sp"
+            android:layout_below="@+id/tableLayout"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+</ScrollView>

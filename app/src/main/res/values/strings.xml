@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Nile 2015 Graduation</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_front1">Nile 2015 Graduation</string>
+    <string name="title_activity_menu">Nile 2015 Graduation</string>
+    <string name="title_activity_main_menu">Nile 2015 Graduation</string>
+    <string name="title_activity_buss">Business Admin</string>
+    <string name="title_activity_chem">Petro-Chemistry</string>
+    <string name="title_activity_csc">Computer sci</string>
+    <string name="title_activity_econs">Economics</string>
+    <string name="title_activity_eee">Elect Elect Engr</string>
+    <string name="title_activity_eng">English</string>
+    <string name="title_activity_pol">Political Sciences</string>
+    <string name="title_activity_credits">Credits</string>
+
+</resources>
